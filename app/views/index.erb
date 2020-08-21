@@ -1,0 +1,9 @@
+<h1>Recipes App</h1>
+
+<h3>Which recipe would you like to see?</h3>
+
+<% @recipes.each do |recipe| %>
+
+
+<a href="/recipes/<%=recipe.id%>"><%= recipe.name %></a>
+<% end %>

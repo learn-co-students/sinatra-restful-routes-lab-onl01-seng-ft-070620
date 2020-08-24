@@ -1,0 +1,6 @@
+  
+recipe1 = Recipe.create(:name => "chicken", :ingredients => "chicken and noodles", :cook_time => 25)
+
+recipe2 = Recipe.create(:name => "tacos", :ingredients => "tortilla meat cheese salsa", :cook_time => 19)
+
+recipe3 = Recipe.create(:name => "pho", :ingredients => "brooth meat vegetables", :cook_time => 22)
